@@ -1,18 +1,15 @@
 <?php
 
-$companies = array('Google', 'Microsoft', 'Apple');
+$member = array(
+    'id' => 1,
+    'name' => 'mohammed',
+    'age' => 25,
+    'interests' => array('video games','soccer', 'coding')
+);
 
-$cars = ['Cadillac', 'Jeep', 'Toyota', 'Auston Martin'];
+echo $member['name'];
 
-var_dump($cars);
-
-unset($cars[1]);
-
-var_dump($cars);
-
-$cars[] = 'Kia';
-
-var_dump($cars);
+echo $member['interests'][1];
 
 
 ?>
