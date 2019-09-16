@@ -1,15 +1,22 @@
 <?php
 
-$member = array(
-    'id' => 1,
-    'name' => 'mohammed',
-    'age' => 25,
-    'interests' => array('video games','soccer', 'coding')
+$members = array(
+    array(
+        'name' => 'محمد',
+        'year' => 2018
+    ),
+    array(
+        'name' => 'عبدالله',
+        'year' => 2016
+    )
 );
 
-echo $member['name'];
+$members[] = array(
+        'name' => 'سارة',
+        'year' => 2018
+);
 
-echo $member['interests'][1];
+echo $members[0]['name'];
 
 
 ?>
