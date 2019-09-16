@@ -1,9 +1,5 @@
 <?php
 
-$ten = 10;
-
-$three = 3;
-
-echo $ten % $three;
+echo rand(10,1000);
 
 ?>
