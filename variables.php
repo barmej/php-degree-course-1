@@ -1,7 +1,5 @@
 <?php
 
-$name = "مناور";
-
-echo $name;
+$age = 20;
 
 ?>
