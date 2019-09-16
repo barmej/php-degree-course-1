@@ -1,11 +1,15 @@
 <?php
 
 function sum($x, $y){
-    echo $x + $y;
+    return $x + $y;
 }
 
-sum(4,9);
+$example = sum(5,10);
+
+echo $example;
+
 echo "<br>";
-sum(10,20);
+
+echo sum(10, $example);
 
 ?>
