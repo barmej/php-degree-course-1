@@ -1,11 +1,15 @@
 <?php
 
-$age = 8;
+$user = array(
+    'name' => 'Sarah',
+    'age' => 20,
+    'role' => 'moderator'
+);
 
-if($age >= 10){
-    echo "مسموح لك مشاهده هذا المحتوى, سيتم تحويلك";
+if( $user['age'] > 15 && $user['role'] == 'moderator'){
+    echo 'مرحبا بك ',$user['name'];
 }else{
-    echo "عذرا, المحتوى غير متاح";
+    echo 'ليس لديك صلاحية لمشاهدة هذه الصفحة';
 }
 
 ?>
