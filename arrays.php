@@ -1,22 +1,10 @@
 <?php
 
-$members = array(
-    array(
-        'name' => 'محمد',
-        'year' => 2018
-    ),
-    array(
-        'name' => 'عبدالله',
-        'year' => 2016
-    )
+$array = array(
+    'name' => 'sarah',
+    'age' => 20
 );
 
-$members[] = array(
-        'name' => 'سارة',
-        'year' => 2018
-);
-
-echo $members[0]['name'];
-
+var_dump(array_flip($array));
 
 ?>
