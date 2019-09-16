@@ -1,9 +1,11 @@
 <?php
 
-function sum(){
-    echo 5+10;
+function sum($x, $y){
+    echo $x + $y;
 }
 
-sum();
+sum(4,9);
+echo "<br>";
+sum(10,20);
 
 ?>
