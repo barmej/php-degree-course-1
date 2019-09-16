@@ -1,25 +1,9 @@
 <?php
 
-$two = 2;
+$ten = 10;
 
 $three = 3;
 
-echo $two + $three;
-
-echo "<br>";
-
-echo $two - $three;
-
-echo "<br>";
-
-echo $two * $three;
-
-echo "<br>";
-
-echo $two / $three;
-
-echo "<br>";
-
-echo ($two + $three) * ($two - $three);
+echo $ten % $three;
 
 ?>
